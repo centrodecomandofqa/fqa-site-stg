@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="script" href="scripts.js">
+        <title>FQA - Bemobi</title>
+    </head>
+    <body>
+        <script>
+            function mostrar_tela(url){
+                document.getElementById("meuiframe").src = url;
+            }
+        </script>
+            <div class="menu">
+                <div class="dropdown" >
+                    <h3>Menus<br></h3>
+                    <div>
+                        <button a href="javascript:void(0);" onclick="mostrar_tela('/home.html')"></a>Home</button>
+                    </div>
+                </div>
+        
+                <div class="dropdown" >
+                    <button>Tim Controle</button>
+                    <div class="dropdown-content">
+                        <a href="javascript:void(0);" onclick="mostrar_tela('timcontrole/timcontrole-documentacao.html' )">Documentações</a>
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif') ">Projetos</a>
+                        <a href="https://one-bemobi.atlassian.net/wiki/spaces/OP/pages/2679767082/Tim+Controle.">Confluence</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown" >
+                    <button>Tim Payment</button>
+                    <div class="dropdown-content">
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Documentações</a>
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Documentações</a>
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Confluence</a>
+                    </div>
+                </div>
+        
+                <div class="dropdown" >
+                    <button>Tim Recarga</button>
+                    <div class="dropdown-content">
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Documentação</a>
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Projetos</a>
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Confluence</a>
+                    </div>
+                </div>
+        
+        
+                <div class="dropdown" >
+                    <button>SKY</button>
+                    <div class="dropdown-content">
+                        <a href="javascript:void(0);" onclick="mostrar_tela('/sky/documentacao.html')">Documentação</a>
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Projetos</a>
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Confluence</a>
+                    </div>
+                </div>
+        
+                <div class="dropdown" >
+                    <button>Claro</button>
+                    <div class="dropdown-content">
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Documentação</a>
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Projetos</a>
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Confluence</a>
+                    </div>
+                </div>
+        
+        
+                <div class="dropdown" >
+                    <button>Oi</button>
+                    <div class="dropdown-content">
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Documentação</a>
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Projetos</a>
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Confluence</a>
+                    </div>
+                </div>
+
+                <div class="dropdown" >
+                    <button>APIs</button>
+                    <div class="dropdown-content">
+                        <a href="javascript:void(0);" onclick="mostrar_tela('/apis/cadastro.html')">Cadastro</a>
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://docs.google.com/spreadsheets/d/1GNEPStOuyUhfz-nBxhi1fHP4SAJjts2Lz005KR_opW4/edit?usp=sharing')">Consultas</a>
+                        <a href="javascript:void(0);" onclick="mostrar_tela('https://www.femci.ufpa.br/images/femci_conteudos/construcao.gif')">Testes</a>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="content">
+                <img src="/img/logo-bemobi-pb.png" width="10%">
+                <h1>Página de serviços FQA</h1>
+                <br>
+                <iframe class="iframemeio" id="meuiframe" src="/home.html" width="4" height="3" frameborder="1"></iframe>
+            </div>
+            
+            <footer>Página desenvolvida pelo squad FQA - Bemobi 2023</footer>
+        </body>
+</html> 
