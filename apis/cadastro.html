@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+         body {
+            display: flex;
+            margin: 0;
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <mea charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+</head>
+<body>
+    <h1>Cadastro de API</h1>
+    <form action="processar_cadastro.php" method="POST">
+        <label for="nome_api">Nome da API:</label>
+        <input type="text" id="nome_api" name="nome_api" required><br><br>
+
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" name="descricao" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="endereco">Endereço da API:</label>
+        <input type="url" id="endereco" name="endereco" required><br><br>
+
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+/* Estilo para a lista suspensa */
+.dropdown {
+    padding-top: 0.5%;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Estilo para o botão da lista suspensa */
+  .dropdown button {
+    background-color: #22D4FD;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para os itens da lista suspensa */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #22D4FD;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #22D4FD;
+  }
+  
+  /* Mostrar os itens quando o botão é hover ou focado */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
