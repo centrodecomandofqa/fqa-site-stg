@@ -1,0 +1,14 @@
+body {
+   display: flex;
+   margin-top: 1%;
+   background-color: background-color: #f4f4fc;
+   color:rgb(28, 9, 243);
+   border:0px;  solid #000000;
+   margin:1mm;
+   padding:2mm;
+}
+
+.imagem {
+   border: 1px solid #000000; /* Cor e largura da borda */
+   box-shadow: 4px 4px 8px #000000;
+}
