@@ -1,42 +1,57 @@
+
+/* aqui nesse css ficam as ações dos botões */
 /* Estilo para a lista suspensa */
 .dropdown {
-    font-family: "Poppins",sans-serif;  
-    background: rgba(0,0,0,0);
-    font-size: 14px;
-    float:left;
    
-   /* 
-    overflow: hidden;
+  padding-top: 5.5%;
+position: relative;
+display: inline-block;
+/* overflow: hidden; */
+}
 
 
-    padding-top: 0.5%;
-   position: relative;
-    display: inline-block;*/
+/* Estilo para os itens da lista suspensa */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f4f4fc;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: relative;
+  }
+
+  
+  /*
+
+/* Estilo para o botão da lista suspensa */
+.dropdown button {
+  display: inline-block;
+  width: 120px; /* Defina a largura desejada */
+  height: 50px; /* Defina a altura desejada */
+  font-size: 13px;
+  text-align: center;
+  background-color: #0b1b73;
+  text-shadow: 4px 4px 4px #000000;
+  color: #ffffff; /* Cor do texto (branco) */
+  border-radius: 6px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+
+.dropdown-content a {
+color: rgb(5, 5, 5);
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+/*quando clicado fica azul em volta do texto no menu flutuante*/
+.dropdown-content a:hover {
+  background-color: #22D4FD;
   }
   
 
-  
-  /* Estilo para os itens da lista suspensa */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #0c1c74;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: rgb(0, 0, 0);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #22D4FD;
-  }
-  
-  /* Mostrar os itens quando o botão é hover ou focado */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+/* Mostrar os itens quando o botão é hover ou focado */
+.dropdown:hover .dropdown-content {
+display: block;
+}
